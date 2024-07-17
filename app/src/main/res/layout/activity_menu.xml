@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Menu_game.Activity_menu">
+<TextView
+    android:id="@+id/show_class12"
+    android:textSize="30dp"
+    android:text="Class 12"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#633641"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    >
+
+</TextView>
+    <ListView
+        android:layout_below="@id/show_class12"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</RelativeLayout>

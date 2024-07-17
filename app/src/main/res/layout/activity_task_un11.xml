@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit11.TaskUn11">
+
+    <TextView
+    android:id="@+id/cau1_u11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/edit_cau1"
+        android:layout_height="wrap_content"
+        android:id="@+id/cau2_u11"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_below="@id/edit_cau2"
+        android:layout_height="wrap_content"
+        android:id="@+id/cau3_u11"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_below="@id/edit_cau3"
+        android:layout_height="wrap_content"
+        android:id="@+id/cau4_u11"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:layout_below="@id/edit_cau4"
+        android:layout_height="wrap_content"
+        android:id="@+id/cau5_u11"
+        android:layout_width="match_parent"/>
+    <EditText
+        android:layout_below="@id/cau1_u11"
+        android:id="@+id/edit_cau1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+      android:layout_below="@id/cau2_u11"
+        android:id="@+id/edit_cau2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_below="@id/cau3_u11"
+        android:id="@+id/edit_cau3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:textSize="20dp"
+        android:layout_below="@id/cau4_u11"
+        android:id="@+id/edit_cau4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/edit_cau5"
+        android:layout_below="@id/cau5_u11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/kiemtra_u11"
+        android:text="Tiếp Tục"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+</RelativeLayout>

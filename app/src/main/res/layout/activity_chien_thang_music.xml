@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Music.ChienThangMusic">
+  <TextView
+      android:id="@+id/medal_music"
+     android:layout_alignParentRight="true"
+      android:layout_width="10dp"
+      android:layout_height="10dp" />
+    <TextView
+        android:textColor="#6633cc"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/score_music"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <ImageView
+  android:id="@+id/symbol"
+    android:layout_width="220dp"
+    android:layout_centerInParent="true"
+    android:layout_height="140dp" />
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#6633cc"
+        android:id="@+id/nhanxet_music"
+        android:layout_below="@id/symbol"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <Button
+        android:id="@+id/tieptuc_music"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:text="Tiếp Tục"
+        android:textSize="30dp"
+        android:layout_height="60dp" />
+</RelativeLayout>

@@ -1,0 +1,674 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Bubble-Picker-v0.1.1.aar\78c81fd80f982a4a544910817daf06d8\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CircleMenu-v1.0.2.aar\71a4436a5589f7b71684d5b11cd9b1ff\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.GrenderG:Toasty:1.2.8] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Toasty-1.2.8.aar\5ebfad82d8234165d183440ca165306f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.JetradarMobile:android-snowfall:1.1.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-snowfall-1.1.6.aar\23b36d531dabde33aab328c0408384a8\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LikeButton-0.2.3.aar\89cc3b66964cd56a1ee0e6a15e240cec\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1029385e550d3043f04fbd0b13857aec\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e37965f7f242792e1053b6caa4e7650b\AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+	package
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:3:5-24
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:1-262:12
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:5:5-260:19
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Bubble-Picker-v0.1.1.aar\78c81fd80f982a4a544910817daf06d8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Bubble-Picker-v0.1.1.aar\78c81fd80f982a4a544910817daf06d8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CircleMenu-v1.0.2.aar\71a4436a5589f7b71684d5b11cd9b1ff\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CircleMenu-v1.0.2.aar\71a4436a5589f7b71684d5b11cd9b1ff\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.JetradarMobile:android-snowfall:1.1.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-snowfall-1.1.6.aar\23b36d531dabde33aab328c0408384a8\AndroidManifest.xml:8:5-20
+MERGED from [com.github.JetradarMobile:android-snowfall:1.1.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-snowfall-1.1.6.aar\23b36d531dabde33aab328c0408384a8\AndroidManifest.xml:8:5-20
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LikeButton-0.2.3.aar\89cc3b66964cd56a1ee0e6a15e240cec\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LikeButton-0.2.3.aar\89cc3b66964cd56a1ee0e6a15e240cec\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1029385e550d3043f04fbd0b13857aec\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1029385e550d3043f04fbd0b13857aec\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:10:9-47
+	android:largeHeap
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:9:9-33
+	android:icon
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:7:9-42
+	android:allowBackup
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:12:9-65
+activity#game.miqi.Loading
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:13:9-21:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:15:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:14:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:19:27-74
+activity#game.miqi.Menu_game.Activity_menu
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:22:9-24:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:23:13-52
+activity#game.miqi.Game1.ActivityGame11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:25:9-27:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:26:13-49
+activity#game.miqi.Game2.ActivityGame2
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:28:9-30:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:29:13-48
+activity#game.miqi.Unit11.Contest_unit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:32:13-50
+activity#game.miqi.Unit11.SpeakingU11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:35:13-47
+activity#game.miqi.Speaking
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:38:13-37
+activity#game.miqi.Menu_Unit.Activity_Unit
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:41:13-52
+activity#game.miqi.Activity_Reading
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:44:13-45
+activity#game.miqi.Game1.Acitivity_Chienthang
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:47:13-55
+activity#game.miqi.Class_Words
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:50:13-40
+activity#game.miqi.Game3.Chienthang_Game3
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:53:13-51
+activity#game.miqi.ChienThang_Main
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:56:13-44
+activity#game.miqi.ChienThang_speak
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:59:13-45
+activity#game.miqi.Game2.ChienThangGame2
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:62:13-50
+activity#game.miqi.NguPhap.CumDongTu
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:65:13-46
+activity#game.miqi.MainActivity
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:68:13-41
+activity#game.miqi.HoanThanh
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:71:13-38
+activity#game.miqi.NguPhap.Onthi
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:74:13-42
+activity#game.miqi.Game3.ActivityGame3
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:77:13-48
+activity#game.miqi.Unit11.Words
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:80:13-41
+activity#game.miqi.Unit11.ReadingUnit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:83:13-49
+activity#game.miqi.Unit11.Unit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:86:13-42
+activity#game.miqi.Game4.Chienthanggame4
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:89:13-50
+activity#game.miqi.Unit11.ChienthangUnit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:92:13-52
+activity#game.miqi.Game4.ActivityGame4
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:95:13-48
+activity#game.miqi.Unit11.TaskUn11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:98:13-44
+activity#game.miqi.Unit11.Task2_unit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:101:13-48
+activity#game.miqi.Unit11.OverView
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:104:13-44
+activity#game.miqi.Unit11.Contest2_unit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:107:13-51
+activity#game.miqi.Unit11.CompleteContest_unit11
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:110:13-58
+activity#game.miqi.Music.Music
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:113:13-40
+activity#game.miqi.NguPhap.CauKhien
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:115:9-117:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:116:13-45
+activity#game.miqi.NguPhap.MaoTu
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:119:13-42
+activity#game.miqi.Music.ChienThangMusic
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:121:9-123:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:122:13-50
+activity#game.miqi.Menu_giaitri.Entertainment
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:124:9-64
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:124:19-61
+activity#game.miqi.NguPhap.GioiTu
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:125:9-127:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:126:13-43
+activity#game.miqi.Unit12.Words_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:128:9-130:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:129:13-48
+activity#game.miqi.Unit12.Reading_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:132:13-50
+activity#game.miqi.Unit12.Task1_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:134:9-136:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:135:13-48
+activity#game.miqi.Unit12.Task2_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:137:9-139:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:138:13-48
+activity#game.miqi.Unit12.OverView_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:140:9-142:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:141:13-51
+activity#game.miqi.Unit12.Unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:144:13-42
+activity#game.miqi.Unit12.Contest_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:147:13-50
+activity#game.miqi.Game1.KiemTra_unit10
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:150:13-49
+activity#game.miqi.Game1.Result_unit10
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:153:13-48
+activity#game.miqi.Unit13.Words_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:156:13-48
+activity#game.miqi.Unit13.Unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:158:9-160:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:159:13-42
+activity#game.miqi.Unit12.Speaking_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:161:9-163:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:162:13-51
+activity#game.miqi.Unit13.Speaking_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:164:9-166:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:165:13-51
+activity#game.miqi.Unit13.Contest_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:167:9-169:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:169:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:168:13-50
+activity#game.miqi.Unit13.Reading_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:170:9-172:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:172:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:171:13-50
+activity#game.miqi.Unit12.ChienthangSpeak_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:173:9-175:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:175:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:174:13-58
+activity#game.miqi.Unit13.ChienthangSpeak_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:176:9-178:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:178:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:177:13-58
+activity#game.miqi.Unit13.Result_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:179:9-181:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:181:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:180:13-49
+activity#game.miqi.Unit14.Words_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:182:9-183:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:182:19-54
+activity#game.miqi.Unit14.Game_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:184:9-185:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:184:19-53
+activity#game.miqi.Unit14.Contest_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:186:9-187:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:186:19-56
+activity#game.miqi.Unit14.Listening_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:188:9-189:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:189:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:188:19-58
+activity#game.miqi.Unit15.Words_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:190:9-191:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:191:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:190:19-54
+activity#game.miqi.Unit15.Game_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:192:9-193:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:193:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:192:19-53
+activity#game.miqi.Unit14.Unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:194:9-195:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:194:19-48
+activity#game.miqi.Unit15.Unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:196:9-197:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:197:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:196:19-48
+activity#game.miqi.Unit16.Unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:198:9-199:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:198:19-48
+activity#game.miqi.Unit14.Result_Unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:200:9-201:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:201:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:200:19-55
+activity#game.miqi.Unit15.Contest_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:202:9-203:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:203:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:202:19-56
+activity#game.miqi.Unit15.Result_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:204:9-205:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:205:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:204:19-55
+activity#game.miqi.Unit12.Result_unit12
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:206:9-207:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:206:19-55
+activity#game.miqi.Unit16.Contest_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:208:9-209:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:209:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:208:19-56
+activity#game.miqi.Unit16.Result_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:210:9-211:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:211:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:210:19-55
+activity#game.miqi.Unit15.Listening_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:212:9-213:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:212:19-58
+activity#game.miqi.Unit16.Reading_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:214:9-215:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:215:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:214:19-56
+activity#game.miqi.Unit16.Game_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:216:9-217:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:217:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:216:19-53
+activity#game.miqi.Unit16.Listening_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:218:9-219:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:218:19-58
+activity#game.miqi.Unit16.Words_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:220:9-221:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:221:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:220:19-54
+activity#game.miqi.NguPhap.GiaoTiep
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:222:9-223:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:222:19-51
+activity#game.miqi.Unit14.Reading_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:224:9-225:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:225:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:224:19-56
+activity#game.miqi.Unit15.Reading_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:226:9-227:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:227:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:226:19-56
+activity#game.miqi.Game3.Read_Contest
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:228:9-229:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:228:19-53
+activity#game.miqi.Game3.Stress_rewrite_closet
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:230:9-231:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:231:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:230:19-62
+activity#game.miqi.Unit14.ChienthangGame_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:232:9-233:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:233:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:232:19-63
+activity#game.miqi.Unit15.ChienThangGame_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:234:9-235:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:234:19-63
+activity#game.miqi.Unit16.ChienThangGame_unit16
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:236:9-237:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:237:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:236:19-63
+activity#game.miqi.ThiThu.ThiThu_menu
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:238:9-239:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:239:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:238:19-53
+activity#game.miqi.ThiThu.ThiThu_Reading
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:240:9-241:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:240:19-56
+activity#game.miqi.ThiThu.ThiThu_Stress
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:242:9-243:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:242:19-55
+activity#game.miqi.ThiThu.Thithu_Closet
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:244:9-245:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:245:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:244:19-55
+activity#game.miqi.ThiThu.ThiThu_Rewrite
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:246:9-247:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:247:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:246:19-56
+activity#game.miqi.ThiThu.ThiThu_fillin
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:248:9-249:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:249:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:248:19-55
+activity#game.miqi.Unit15.ChienthangListen_unit15
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:250:9-251:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:251:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:250:19-65
+activity#game.miqi.Unit13.Game_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:252:9-253:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:253:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:252:19-53
+activity#game.miqi.Unit13.ChienthangGame_unit13
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:254:9-255:51
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:255:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:254:19-63
+activity#game.miqi.Unit14.ChienthangListen_unit14
+ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:256:9-259:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:257:13-49
+	android:name
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml:256:19-65
+uses-sdk
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Bubble-Picker-v0.1.1.aar\78c81fd80f982a4a544910817daf06d8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.igalata:Bubble-Picker:v0.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Bubble-Picker-v0.1.1.aar\78c81fd80f982a4a544910817daf06d8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CircleMenu-v1.0.2.aar\71a4436a5589f7b71684d5b11cd9b1ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Hitomis:CircleMenu:v1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\CircleMenu-v1.0.2.aar\71a4436a5589f7b71684d5b11cd9b1ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.2.8] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Toasty-1.2.8.aar\5ebfad82d8234165d183440ca165306f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.GrenderG:Toasty:1.2.8] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Toasty-1.2.8.aar\5ebfad82d8234165d183440ca165306f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.JetradarMobile:android-snowfall:1.1.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-snowfall-1.1.6.aar\23b36d531dabde33aab328c0408384a8\AndroidManifest.xml:6:5-44
+MERGED from [com.github.JetradarMobile:android-snowfall:1.1.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-snowfall-1.1.6.aar\23b36d531dabde33aab328c0408384a8\AndroidManifest.xml:6:5-44
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LikeButton-0.2.3.aar\89cc3b66964cd56a1ee0e6a15e240cec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jd-alexander:LikeButton:0.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\LikeButton-0.2.3.aar\89cc3b66964cd56a1ee0e6a15e240cec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1029385e550d3043f04fbd0b13857aec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1029385e550d3043f04fbd0b13857aec\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e37965f7f242792e1053b6caa4e7650b\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e37965f7f242792e1053b6caa4e7650b\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\AndroidStudioProjects\EnglishMiQi\app\src\main\AndroidManifest.xml

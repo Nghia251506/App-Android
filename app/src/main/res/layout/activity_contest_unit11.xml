@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit11.Contest_unit11">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Stress"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textColor="#6633cc"
+            android:id="@+id/stress_unit11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/stress_unit11"
+    android:id="@+id/m1"
+    android:textSize="25dp"
+    android:text="Câu 1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/group_m1"
+        android:layout_below="@id/m1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/cau1_1"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+    <RadioButton
+        android:id="@+id/cau1_2"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+    <RadioButton
+        android:id="@+id/cau1_3"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+    <RadioButton
+        android:id="@+id/cau1_4"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+</RadioGroup>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/m1"
+        android:id="@+id/cauhoi1_1"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi1_1"
+        android:id="@+id/cauhoi1_2"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi1_2"
+        android:id="@+id/cauhoi1_3"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi1_3"
+        android:id="@+id/cauhoi1_4"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/bien"
+        android:layout_below="@id/group_m1"
+        android:text="____________________________________________________________________"
+        android:textSize="15dp"
+        android:textColor="#6633cc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_below="@id/bien"
+        android:id="@+id/m2"
+        android:textSize="25dp"
+        android:text="Câu 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/group_m2"
+        android:layout_below="@id/m2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/cau2_1"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau2_2"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau2_3"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau2_4"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/m2"
+        android:id="@+id/cauhoi2_1"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi2_1"
+        android:id="@+id/cauhoi2_2"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi2_2"
+        android:id="@+id/cauhoi2_3"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi2_3"
+        android:id="@+id/cauhoi2_4"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/bien2"
+        android:layout_below="@id/group_m2"
+        android:text="____________________________________________________________________"
+        android:textSize="15dp"
+        android:textColor="#6633cc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_below="@id/bien2"
+        android:id="@+id/m3"
+        android:textSize="25dp"
+        android:text="Câu 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/group_m3"
+        android:layout_below="@id/m3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/cau3_1"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau3_2"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau3_3"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <RadioButton
+            android:id="@+id/cau3_4"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/m3"
+        android:id="@+id/cauhoi3_1"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi3_1"
+        android:id="@+id/cauhoi3_2"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi3_2"
+        android:id="@+id/cauhoi3_3"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cauhoi3_3"
+        android:id="@+id/cauhoi3_4"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/bien3"
+        android:layout_below="@id/group_m3"
+        android:text="____________________________________________________________________"
+        android:textSize="15dp"
+        android:textColor="#6633cc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien3"
+            android:id="@+id/m4"
+            android:textSize="25dp"
+            android:text="Câu 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m4"
+            android:layout_below="@id/m4"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau4_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau4_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau4_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau4_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m4"
+            android:id="@+id/cauhoi4_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi4_1"
+            android:id="@+id/cauhoi4_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi4_2"
+            android:id="@+id/cauhoi4_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi4_3"
+            android:id="@+id/cauhoi4_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien4"
+            android:layout_below="@id/group_m4"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien4"
+            android:id="@+id/m5"
+            android:textSize="25dp"
+            android:text="Câu 5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m5"
+            android:layout_below="@id/m5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau5_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau5_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau5_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau5_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m5"
+            android:id="@+id/cauhoi5_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi5_1"
+            android:id="@+id/cauhoi5_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi5_2"
+            android:id="@+id/cauhoi5_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi5_3"
+            android:id="@+id/cauhoi5_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien5"
+            android:layout_below="@id/group_m5"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien5"
+            android:id="@+id/m6"
+            android:textSize="25dp"
+            android:text="Câu 6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m6"
+            android:layout_below="@id/m6"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau6_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau6_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau6_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau6_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m6"
+            android:id="@+id/cauhoi6_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi6_1"
+            android:id="@+id/cauhoi6_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi6_2"
+            android:id="@+id/cauhoi6_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi6_3"
+            android:id="@+id/cauhoi6_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien6"
+            android:layout_below="@id/group_m6"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien6"
+            android:id="@+id/m7"
+            android:textSize="25dp"
+            android:text="Câu 7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m7"
+            android:layout_below="@id/m7"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau7_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau7_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau7_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau7_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m7"
+            android:id="@+id/cauhoi7_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi7_1"
+            android:id="@+id/cauhoi7_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi7_2"
+            android:id="@+id/cauhoi7_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi7_3"
+            android:id="@+id/cauhoi7_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien7"
+            android:layout_below="@id/group_m7"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien7"
+            android:id="@+id/m8"
+            android:textSize="25dp"
+            android:text="Câu 8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m8"
+            android:layout_below="@id/m8"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau8_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau8_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau8_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau8_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m8"
+            android:id="@+id/cauhoi8_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi8_1"
+            android:id="@+id/cauhoi8_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi8_2"
+            android:id="@+id/cauhoi8_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi8_3"
+            android:id="@+id/cauhoi8_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien8"
+            android:layout_below="@id/group_m8"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien8"
+            android:id="@+id/m9"
+            android:textSize="25dp"
+            android:text="Câu 9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m9"
+            android:layout_below="@id/m9"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau9_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau9_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau9_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau9_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m9"
+            android:id="@+id/cauhoi9_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi9_1"
+            android:id="@+id/cauhoi9_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi9_2"
+            android:id="@+id/cauhoi9_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi9_3"
+            android:id="@+id/cauhoi9_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien9"
+            android:layout_below="@id/group_m9"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien9"
+            android:id="@+id/m10"
+            android:textSize="25dp"
+            android:text="Câu 10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/group_m10"
+            android:layout_below="@id/m10"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/cau10_1"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau10_2"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau10_3"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+            <RadioButton
+                android:id="@+id/cau10_4"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/m10"
+            android:id="@+id/cauhoi10_1"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi10_1"
+            android:id="@+id/cauhoi10_2"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi10_2"
+            android:id="@+id/cauhoi10_3"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_below="@id/cauhoi10_3"
+            android:id="@+id/cauhoi10_4"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/bien10"
+            android:layout_below="@id/group_m10"
+            android:text="____________________________________________________________________"
+            android:textSize="15dp"
+            android:textColor="#6633cc"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_below="@id/bien10"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </RelativeLayout>
+</ScrollView>
+    <Button
+        android:id="@+id/tieptuc_m"
+        android:textSize="20dp"
+        android:text="Tiếp Tục"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+</RelativeLayout>

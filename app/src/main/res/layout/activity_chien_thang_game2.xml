@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Game2.ChienThangGame2">
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="ENGLISH MIQI"
+        android:textColor="#66f"
+        android:id="@+id/englishmiqi_game2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <ImageView
+        android:background="@drawable/backback"
+        android:id="@+id/back_game2"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/textleft_game2"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textright_game2"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+    <TextView
+
+        android:layout_below="@id/englishmiqi_game2"
+        android:id="@+id/result_game2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:text="Hoàn Thành"
+        android:textColor="#ff00"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        ></TextView>
+    <TextView
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        android:text="Cố gắng sẽ thành công !"
+        android:gravity="center"
+        android:textColor="#6633cc"
+        android:id="@+id/nsthem_game2"
+        android:layout_below="@id/result_game2"
+        android:layout_height="40dp"
+        android:layout_width="match_parent">
+    </TextView>
+    <ImageView
+        android:id="@+id/congra_game2"
+        android:background="@drawable/congra"
+        android:layout_below="@id/nsthem_game2"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tieptuc_game2"
+        android:layout_width="match_parent">
+    </ImageView>
+    <Button
+        android:background="@drawable/button2"
+        android:id="@+id/tieptuc_game2"
+        android:textSize="24dp"
+        android:text="Tiếp Tục"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </Button>
+</RelativeLayout>

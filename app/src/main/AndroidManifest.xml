@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="game.miqi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/iconicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Loading"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu_game.Activity_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game1.ActivityGame11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game2.ActivityGame2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.Contest_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.SpeakingU11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Speaking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu_Unit.Activity_Unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_Reading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game1.Acitivity_Chienthang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Class_Words"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game3.Chienthang_Game3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChienThang_Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChienThang_speak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game2.ChienThangGame2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NguPhap.CumDongTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HoanThanh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NguPhap.Onthi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game3.ActivityGame3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.Words"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.ReadingUnit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.Unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game4.Chienthanggame4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.ChienthangUnit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game4.ActivityGame4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.TaskUn11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.Task2_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.OverView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.Contest2_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit11.CompleteContest_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music.Music"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NguPhap.CauKhien"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NguPhap.MaoTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Music.ChienThangMusic"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Menu_giaitri.Entertainment" />
+        <activity
+            android:name=".NguPhap.GioiTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Words_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Reading_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Task1_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Task2_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.OverView_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Contest_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game1.KiemTra_unit10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game1.Result_unit10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Words_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.Speaking_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Speaking_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Contest_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Reading_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit12.ChienthangSpeak_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.ChienthangSpeak_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Unit13.Result_unit13"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Unit14.Words_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Game_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Contest_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Listening_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Words_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Game_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Result_Unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Contest_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Result_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit12.Result_unit12"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Contest_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Result_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Listening_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Reading_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Game_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Listening_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.Words_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NguPhap.GiaoTiep"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.Reading_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.Reading_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Game3.Read_Contest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Game3.Stress_rewrite_closet"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.ChienthangGame_unit14"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.ChienThangGame_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit16.ChienThangGame_unit16"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.ThiThu_menu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.ThiThu_Reading"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.ThiThu_Stress"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.Thithu_Closet"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.ThiThu_Rewrite"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThiThu.ThiThu_fillin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit15.ChienthangListen_unit15"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit13.Game_unit13"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit13.ChienthangGame_unit13"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Unit14.ChienthangListen_unit14"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

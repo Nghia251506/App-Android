@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.ThiThu.ThiThu_Rewrite">
+    <TextView
+        android:textColor="#cc0000"
+        android:id="@+id/cau_rewrite"
+        android:text="Câu :"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cau_rewrite"
+        android:id="@+id/write_1"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="ReWrite"
+        android:gravity="center"
+        android:textColor="#006600"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/write_2_rewrite"
+        android:layout_below="@id/write_1"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textColor="#660000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="200dp" />
+    <RelativeLayout
+        android:layout_below="@id/write_2_rewrite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/but1_rewrite"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/but2_rewrite"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/but1_rewrite"
+            android:background="@drawable/button"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_below="@id/but2_rewrite"
+      android:layout_marginTop="10dp"
+            android:id="@+id/but3_rewrite"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/but3_rewrite"
+            android:id="@+id/but4_rewrite"
+            android:layout_width="match_parent"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+</RelativeLayout>

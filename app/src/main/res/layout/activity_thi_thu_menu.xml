@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.ThiThu.ThiThu_menu">
+<TextView
+    android:id="@+id/id_thithu"
+    android:layout_width="match_parent"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:textColor="#006600"
+    android:text="ENGLISH MIQI"
+    android:gravity="center"
+    android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/id1_thithu"
+        android:layout_below="@id/id_thithu"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:text="Thi Thử "
+        android:textColor="#cc0000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/id2_thithu"
+        android:layout_below="@id/id1_thithu"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        android:text="Hoàn thành 50 câu trong 50 phút"
+        android:textColor="#cc0000"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <Button
+        android:layout_centerInParent="true"
+        android:background="@drawable/rect_rect"
+        android:id="@+id/button_thithu"
+        android:text="Start"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@id/id2_thithu"
+        android:layout_width="200dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/thithu_ready"
+        android:layout_marginTop="20dp"
+        android:textColor="#cc0000"
+        android:layout_below="@id/button_thithu"
+        android:text="Are You Ready ?"
+        android:gravity="center"
+        android:textSize="25dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_below="@id/thithu_ready"
+        android:layout_centerInParent="true"
+        android:background="@drawable/baothuc"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_below="@id/thithu_ready"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="00:00"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+</RelativeLayout>

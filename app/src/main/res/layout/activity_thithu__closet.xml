@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.ThiThu.Thithu_Closet">
+<TextView
+   android:textColor="#cc0000"
+    android:text="Câu :"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:id="@+id/cau_closest"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/cau_closest"
+    android:id="@+id/closest_1"
+    android:layout_width="match_parent"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:text="CLOSEST(Đồng Nghĩa)"
+    android:gravity="center"
+    android:textColor="#006600"
+    android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/closest_2"
+        android:layout_below="@id/closest_1"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="200dp" />
+    <RelativeLayout
+        android:layout_below="@id/closest_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/but1_closest"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/but1_closest"
+            android:id="@+id/but2_closest"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/but3_closest"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+        <Button
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/but3_closest"
+            android:id="@+id/but4_closest"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+</RelativeLayout>

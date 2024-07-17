@@ -1,0 +1,4 @@
+#Fri Apr 06 23:27:21 GMT+07:00 2018
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\EnglishMiQi\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

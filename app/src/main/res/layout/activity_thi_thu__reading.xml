@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.ThiThu.ThiThu_Reading">
+    <ScrollView
+        android:layout_above="@+id/relative_reading_thithu"
+        android:id="@+id/scrolll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:textSize="22dp"
+        android:id="@+id/text_read_thithu_123"
+        android:text="Throughout the world there are different ways for people to greet each other. In much of the world, a handshake is the (1) __________ form of welcoming and greeting someone. In many countries around the Mediterranean Sea a (2) ___________ kiss on the cheek is the appropriate way to welcome friends and family. It can be a very (3) __________ surprise if you expect to shake hands and get a kiss or a hug instead.
+At times, it is difficult to tell what sort of greeting
+ (4) ___________ is followed. People may bow, grab another‟s arm or
+  even slap the other person on the back. In some places people just
+  smile, look at the other‟s face and say nothing.  Most people in the world are tolerant of visitors and don‟t mind what travellers do that seems wrong as long as the visitors are (5)__________. A big part of the delightfulness of world travel is experiencing different customs.
+"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    </ScrollView>
+
+   <RelativeLayout
+       android:layout_alignParentBottom="true"
+       android:id="@+id/relative_reading_thithu"
+       android:layout_width="match_parent"
+       android:layout_height="250dp">
+       <TextView
+           android:textSize="20dp"
+           android:text="Câu 1"
+           android:textColor="#cc0000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:text="superficial"
+           android:textSize="11dp"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/but1_cau1_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+        android:layout_marginLeft="135dp"
+           android:id="@+id/but2_cau1_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+
+       <Button
+           android:id="@+id/but3_cau1_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp"
+           android:layout_alignLeft="@+id/but3_cau2_read"
+           android:layout_alignParentTop="true"
+           android:layout_alignStart="@+id/but3_cau2_read" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginLeft="300dp"
+           android:id="@+id/but4_cau1_read"
+           android:layout_width="70dp"
+           android:layout_height="40dp" />
+       <TextView
+           android:textSize="20dp"
+           android:layout_marginTop="50dp"
+           android:text="Câu 2"
+           android:textColor="#cc0000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/but1_cau2_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="135dp"
+           android:id="@+id/but2_cau2_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="215dp"
+           android:id="@+id/but3_cau2_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="300dp"
+           android:id="@+id/but4_cau2_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <TextView
+           android:textSize="20dp"
+           android:layout_marginTop="100dp"
+           android:text="Câu 3"
+           android:textColor="#cc0000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/but1_cau3_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="135dp"
+           android:id="@+id/but2_cau3_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="215dp"
+           android:id="@+id/but3_cau3_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="300dp"
+           android:id="@+id/but4_cau3_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <TextView
+           android:textSize="20dp"
+           android:layout_marginTop="150dp"
+           android:text="Câu 4"
+           android:textColor="#cc0000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="150dp"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/but1_cau4_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="150dp"
+           android:layout_marginLeft="135dp"
+           android:id="@+id/but2_cau4_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="150dp"
+           android:layout_marginLeft="215dp"
+           android:id="@+id/but3_cau4_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="150dp"
+           android:layout_marginLeft="300dp"
+           android:id="@+id/but4_cau4_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <TextView
+           android:textSize="20dp"
+           android:layout_marginTop="200dp"
+           android:text="Câu 5"
+           android:textColor="#cc0000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="60dp"
+           android:id="@+id/but1_cau5_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="135dp"
+           android:id="@+id/but2_cau5_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+       <Button
+           android:textSize="11dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="215dp"
+           android:id="@+id/but3_cau5_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp" />
+
+       <Button
+           android:textSize="11dp"
+           android:id="@+id/but4_cau5_read"
+           android:layout_width="70dp"
+           android:layout_height="50dp"
+           android:layout_alignLeft="@+id/but4_cau4_read"
+           android:layout_alignParentBottom="true"
+           android:layout_alignStart="@+id/but4_cau4_read" />
+       
+   </RelativeLayout>
+
+</RelativeLayout>

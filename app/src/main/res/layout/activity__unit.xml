@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Menu_Unit.Activity_Unit">
+<TextView
+    android:id="@+id/unit"
+    android:textSize="36dp"
+    android:gravity="center"
+    android:text="Unit10"
+    android:textColor="#6633cc"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+</TextView>
+<ListView
+    android:id="@+id/listview_unit"
+    android:layout_below="@id/unit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ListView>
+</RelativeLayout>

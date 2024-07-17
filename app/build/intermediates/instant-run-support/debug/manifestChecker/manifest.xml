@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.englishmiqi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/iconicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/iconicon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.administrator.englishmiqi.Loading"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.administrator.englishmiqi.Menu_game.Activity_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game1.ActivityGame11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game2.ActivityGame2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.Contest_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.SpeakingU11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Speaking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Menu_Unit.Activity_Unit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Activity_Reading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game1.Acitivity_Chienthang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Class_Words"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game3.Chienthang_Game3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.ChienThang_Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.ChienThang_speak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game2.ChienThangGame2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.NguPhap.CumDongTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.HoanThanh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.NguPhap.Onthi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game3.ActivityGame3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.Words"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.ReadingUnit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.Unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game4.Chienthanggame4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.ChienthangUnit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game4.ActivityGame4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.TaskUn11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.Task2_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.OverView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.Contest2_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit11.CompleteContest_unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Music.Music"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.NguPhap.CauKhien"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.NguPhap.MaoTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Music.ChienThangMusic"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.administrator.englishmiqi.Menu_giaitri.Entertainment" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.NguPhap.GioiTu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Words_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Reading_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Task1_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Task2_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.OverView_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Contest_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game1.KiemTra_unit10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Game1.Result_unit10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Words_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.Speaking_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Speaking_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Contest_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Reading_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit12.ChienthangSpeak_unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.ChienthangSpeak_unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.administrator.englishmiqi.Unit13.Result_unit13"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.administrator.englishmiqi.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

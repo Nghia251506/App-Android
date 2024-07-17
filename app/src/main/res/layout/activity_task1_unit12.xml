@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit12.Task1_unit12">
+<TextView
+    android:id="@+id/task_unit12"
+    android:text="Task 2"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#6633cc"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" />
+    <TextView
+        android:textStyle="bold"
+        android:text="Đọc Sách Giáo Khoa Và Điền Vào Để Hoàn Thành Câu ( Ngắn Gọn )"
+        android:textColor="#ff00ff"
+        android:textSize="20dp"
+        android:layout_below="@id/task_unit12"
+        android:id="@+id/chuthich_unit12"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:textSize="18dp"
+        android:layout_below="@id/chuthich_unit12"
+        android:hint="Example:1,8; 30 metres; 20 metrers"
+        android:textColor="#ff00ff"
+        android:id="@+id/edit_unit12_1"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+    <EditText
+        android:textSize="18dp"
+        android:textColor="#ff00ff"
+        android:hint="Câu 2"
+        android:layout_below="@id/edit_unit12_1"
+        android:id="@+id/edit_unit12_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:textSize="18dp"
+        android:textColor="#ff00ff"
+        android:hint="Câu 3"
+        android:layout_below="@id/edit_unit12_2"
+        android:id="@+id/edit_unit12_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:textSize="18dp"
+        android:textColor="#ff00ff"
+        android:hint="Câu 4"
+        android:layout_below="@id/edit_unit12_3"
+        android:id="@+id/edit_unit12_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:textSize="18dp"
+        android:textColor="#ff00ff"
+        android:hint="Câu 5"
+        android:layout_below="@id/edit_unit12_4"
+        android:id="@+id/edit_unit12_5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/tieptuc_task1_unit12"
+        android:text="Tiếp Tục"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

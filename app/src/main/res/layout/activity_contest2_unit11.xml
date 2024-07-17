@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit11.Contest2_unit11">
+
+<TextView
+    android:id="@+id/stress"
+    android:textSize="24dp"
+    android:gravity="center"
+    android:text="Choose Answer Correct"
+    android:textColor="#ff0000"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+    <TextView
+        android:layout_below="@id/stress"
+        android:textColor="#6633ff"
+        android:textSize="18dp"
+        android:background="@drawable/stroke_violet"
+        android:padding="10dp"
+        android:id="@+id/question_m_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m_traloi1_m"
+        android:layout_below="@id/question_m_m"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m_traloi2_m"
+        android:layout_below="@id/m_traloi1_m"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m_traloi3_m"
+        android:layout_below="@id/m_traloi2_m"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m_traloi4_m"
+        android:layout_below="@id/m_traloi3_m"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+</RelativeLayout>

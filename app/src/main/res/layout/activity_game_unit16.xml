@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit16.Game_unit16">
+ <TextView
+     android:gravity="center"
+     android:textSize="20dp"
+     android:textStyle="italic"
+     android:text="Choose The Country Name"
+     android:textColor="#660033"
+     android:id="@+id/question_game_unit16"
+     android:layout_width="match_parent"
+     android:layout_height="50dp" />
+    <ImageView
+        android:background="@drawable/maylaysia"
+        android:id="@+id/image_game_unit16"
+        android:layout_below="@id/question_game_unit16"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <RelativeLayout
+   android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+        <Button
+            android:background="@drawable/but_a"
+            android:id="@+id/but1_game16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:background="@drawable/but_b"
+            android:layout_below="@id/but1_game16"
+            android:id="@+id/but2_game16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:background="@drawable/but_c"
+            android:layout_below="@id/but2_game16"
+            android:id="@+id/but3_game16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:background="@drawable/but_d"
+            android:layout_below="@id/but3_game16"
+            android:id="@+id/but4_game16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+</RelativeLayout>

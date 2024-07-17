@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Game4.ActivityGame4">
+    <GridView android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:numColumns="5"
+        android:columnWidth="80dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_below="@id/score_game4"
+        android:id="@+id/gridviewgame4">
+    </GridView>
+    <TextView
+        android:textColor="#6633cc"
+        android:gravity="center"
+        android:id="@+id/score_game4"
+        android:textSize="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="60dp"
+        android:layout_width="100dp">
+    </TextView>
+
+    <Button
+        android:background="@drawable/button3"
+        android:layout_below="@id/gridviewgame4"
+        android:id="@+id/game4_but1"
+        android:layout_width="130dp"
+        android:layout_height="60dp">
+    </Button>
+    <Button
+        android:background="@drawable/button3"
+        android:layout_below="@id/gridviewgame4"
+        android:id="@+id/game4_but2"
+        android:layout_alignParentRight="true"
+        android:layout_width="130dp"
+        android:layout_height="60dp">
+    </Button>
+    <Button
+        android:background="@drawable/button3"
+        android:id="@+id/game4_but3"
+        android:layout_below="@id/game4_but1"
+        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_height="60dp">
+    </Button>
+    <Button
+        android:background="@drawable/button3"
+        android:layout_below="@id/game4_but1"
+        android:id="@+id/game4_but4"
+        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="60dp">
+    </Button>
+
+
+</RelativeLayout>

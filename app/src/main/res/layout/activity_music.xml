@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Music.Music">
+
+    <RelativeLayout
+        android:id="@+id/relative_music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+    android:background="@drawable/button4"
+    android:id="@+id/but1_music"
+    android:layout_width="240dp"
+    android:layout_height="80dp" />
+    <Button
+        android:background="@drawable/button4"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/but1_music"
+        android:layout_alignParentRight="true"
+        android:id="@+id/but2_music"
+        android:layout_width="240dp"
+        android:layout_height="80dp" />
+    <Button
+        android:background="@drawable/button4"
+        android:layout_above="@id/but4_music"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/but3_music"
+        android:layout_width="240dp"
+        android:layout_height="80dp" />
+    <Button
+        android:background="@drawable/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/but4_music"
+        android:layout_width="240dp"
+        android:layout_height="80dp" />
+    <Button
+    android:id="@+id/button_music_start"
+    android:gravity="center"
+        android:text="Start"
+    android:textStyle="bold"
+        android:textColor="#cc0000"
+    android:textSize="25dp"
+    android:layout_centerInParent="true"
+    android:layout_width="160dp"
+    android:layout_height="140dp" />
+    </RelativeLayout>
+</RelativeLayout>

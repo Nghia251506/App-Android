@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit15.Game_unit15">
+    <GridView
+        android:layout_marginTop="30dp"
+        android:numColumns="auto_fit"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="40dp"
+        android:id="@+id/question_unit15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </GridView>>
+    <TextView
+        android:text="CHỌN TỪ DƯ THỪA"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#3366cc"
+        android:textSize="30dp"
+        android:layout_below="@id/question_unit15"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></TextView>
+
+    <TextView
+
+        android:id="@+id/scoregame_unit15"
+        android:layout_centerInParent="true"
+        android:textSize="50dp"
+        android:textColor="#6633ff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/question_unit15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

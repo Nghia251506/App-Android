@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.MainActivity">
+   <com.jetradarmobile.snowfall.SnowfallView
+       app:snowflakeImage="@drawable/hoa1"
+       app:snowflakeAlphaMax="255"
+       app:snowflakeAlphaMin="150"
+       app:snowflakeAngleMax="5"
+       app:snowflakeSpeedMax="15"
+       app:snowflakeSpeedMin="10"
+       app:snowflakeSizeMax="30dp"
+       app:snowflakeSizeMin="10dp"
+       app:snowflakesNum="5"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" />
+   <com.jetradarmobile.snowfall.SnowfallView
+       app:snowflakeImage="@drawable/hoa2"
+       app:snowflakeAlphaMax="255"
+       app:snowflakeAlphaMin="150"
+       app:snowflakeAngleMax="5"
+       app:snowflakeSpeedMax="15"
+       app:snowflakeSpeedMin="10"
+       app:snowflakeSizeMax="30dp"
+       app:snowflakeSizeMin="10dp"
+       app:snowflakesNum="5"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" />
+   <com.jetradarmobile.snowfall.SnowfallView
+       app:snowflakeImage="@drawable/hoa3"
+       app:snowflakeAlphaMax="255"
+       app:snowflakeAlphaMin="150"
+       app:snowflakeAngleMax="15"
+       app:snowflakeSpeedMax="10"
+       app:snowflakeSpeedMin="1"
+       app:snowflakeSizeMax="30dp"
+       app:snowflakeSizeMin="10dp"
+       app:snowflakesNum="5"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" />
+   <ImageView
+       android:id="@+id/rank"
+       android:background="@drawable/huanchuong2"
+       android:layout_width="120dp"
+       android:layout_height="60dp" />
+   <TextView
+       android:id="@+id/text_rank"
+       android:textSize="20dp"
+       android:textColor="#660033"
+       android:text="Học Sinh Mới"
+       android:gravity="center"
+       android:layout_toRightOf="@id/rank"
+       android:layout_width="match_parent"
+       android:layout_height="60dp" />
+   <ListView
+       android:layout_below="@id/rank"
+       android:id="@+id/listview_main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </ListView>
+
+
+</RelativeLayout>

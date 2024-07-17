@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Game1.KiemTra_unit10">
+
+    <TextView
+        android:id="@+id/score_kiemtra_unit10"
+        android:text="0/20"
+        android:textSize="16dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_height="30dp"
+        android:layout_width="50dp">
+    </TextView>>
+    <ImageView
+        android:id="@+id/back_kiemtra_unit10"
+        android:background="@drawable/backback"
+        android:layout_width="60dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textColor="#6633cc"
+        android:text=""
+        android:id="@+id/cau_kiemtra_unit10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:padding="4dp"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/stroke_violet"
+        android:layout_below="@id/cau_kiemtra_unit10"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/text_show_kiemtra_unit10"
+        android:text=""
+        android:textColor="#6633cc"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </TextView>
+
+
+    <RelativeLayout
+
+        android:id="@+id/layoutbutton_kiemtra_unit10"
+        android:layout_below="@id/text_show_kiemtra_unit10"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <Button
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="A"
+            android:textSize="12dp"
+            android:background="@drawable/button2"
+            android:id="@+id/button1_kiemtra_unit10"
+            android:layout_height="60dp"
+            android:layout_width="140dp">
+        </Button>
+        <Button
+            android:padding="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="B"
+            android:textSize="12dp"
+            android:background="@drawable/button2"
+            android:layout_alignParentRight="true"
+            android:id="@+id/button2_kiemtra_unit10"
+            android:layout_height="60dp"
+            android:layout_width="140dp">
+        </Button>
+        <Button
+            android:padding="3dp"
+            android:layout_marginLeft="10dp"
+            android:text="C"
+            android:textSize="12dp"
+            android:background="@drawable/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/button3_kiemtra_unit10"
+            android:layout_height="60dp"
+            android:layout_width="140dp">
+        </Button>
+        <Button
+            android:padding="3dp"
+            android:layout_marginRight="10dp"
+            android:text="D"
+            android:textSize="12dp"
+            android:background="@drawable/button2"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/button4_kiemtra_unit10"
+            android:layout_height="60dp"
+            android:layout_width="140dp">
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

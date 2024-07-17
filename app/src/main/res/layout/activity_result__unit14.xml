@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit14.Result_Unit14">
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/textright_result_unit14"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/englishmiqi_result_u10"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#ff00cc"
+        android:text="English MiQi"
+        android:layout_height="40dp" />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/englishmiqi_result_u10"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:background="@drawable/teacher2"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        <TextView
+            android:id="@+id/result_result_unit14"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ff00cc"
+            android:textSize="40dp"
+            android:text="Score: 8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:text="Have Try"
+            android:textSize="25dp"
+            android:textColor="#ff00cc"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nsthem_result_unit14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/tieptuc_result_unit14"
+        android:text="Tiếp Tục"
+        android:textSize="30dp"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>

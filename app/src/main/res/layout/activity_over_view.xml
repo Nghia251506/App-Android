@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit11.OverView">
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="ENGLISH MIQI"
+        android:textColor="#66f"
+        android:id="@+id/englishmiqi_123"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/hieuung1"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:textColor="#6633cc"
+        android:layout_below="@id/englishmiqi_123"
+    android:id="@+id/score_task1_u11"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:textSize="30dp"
+    android:text="Score :30"
+    ></TextView>
+    <TextView
+        android:layout_below="@id/score_task1_u11"
+        android:id="@+id/score_task2_u11"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#6633cc"
+        android:textSize="30dp"
+        android:text="Score :30"
+        ></TextView>
+    <Button
+        android:id="@+id/continue_read_u11"
+        android:text="Tiếp Tục"
+        android:textSize="24dp"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp" />
+</RelativeLayout>

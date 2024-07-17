@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.NguPhap.Onthi">
+<TextView
+    android:gravity="center"
+    android:textSize="30dp"
+    android:text="Grammar"
+    android:textColor="#66cc33"
+    android:id="@+id/grammar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" />
+    <ListView
+        android:layout_below="@id/grammar"
+    android:id="@+id/onthi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></ListView>
+</RelativeLayout>

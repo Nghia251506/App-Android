@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.englishmiqi.Unit11.Task2_unit11">
+<TextView
+    android:text="T  F NM"
+    android:textSize="22dp"
+    android:id="@+id/tieude"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/cau1_task2"
+        android:layout_below="@id/tieude"
+    android:layout_toLeftOf="@id/groupradio"
+    android:text="1.You can't read different types of books in the same way"
+    android:layout_width="match_parent"
+    android:textSize="18dp"
+    android:textColor="#440000"
+    android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tieude"
+        android:id="@+id/groupradio"
+        android:layout_alignParentRight="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+        <RadioButton android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <RadioButton android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/cau2_task2"
+        android:layout_below="@id/cau1_task2"
+        android:layout_toLeftOf="@id/groupradio"
+        android:text="2.When you 'taste' a book you read it carefully from the beginning to the end"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textColor="#440000"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cau1_task2"
+        android:id="@+id/groupradio2"
+        android:layout_alignParentRight="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton android:id="@+id/radio2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <RadioButton android:id="@+id/radio3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </RadioGroup>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/cau3_task2"
+        android:layout_below="@id/cau2_task2"
+        android:layout_toLeftOf="@id/groupradio"
+        android:text="3.Many people only have time to read when they are travelling"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textColor="#440000"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cau2_task2"
+        android:id="@+id/groupradio3"
+        android:layout_alignParentRight="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton
+
+            android:id="@+id/radio1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton android:id="@+id/radio2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <RadioButton android:id="@+id/radio3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/cau4_task2"
+        android:layout_below="@id/cau3_task2"
+        android:layout_toLeftOf="@id/groupradio"
+        android:text="4.Books with good stories are often described as 'hard-to-put-down' "
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textColor="#440000"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+android:layout_marginTop="10dp"
+        android:layout_below="@id/cau3_task2"
+        android:id="@+id/groupradio4"
+        android:layout_alignParentRight="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton android:id="@+id/radio2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <RadioButton android:id="@+id/radio3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/cau5_task2"
+        android:layout_below="@id/cau4_task2"
+        android:layout_toLeftOf="@id/groupradio"
+        android:text="5.Television has replaced books altogether"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textColor="#440000"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/cau4_task2"
+        android:id="@+id/groupradio5"
+        android:layout_alignParentRight="true"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton android:id="@+id/radio2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <RadioButton android:id="@+id/radio3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </RadioGroup>
+    <Button
+     android:id="@+id/kiemtra_task2"
+        android:layout_alignParentBottom="true"
+        android:text="Kiểm Tra"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

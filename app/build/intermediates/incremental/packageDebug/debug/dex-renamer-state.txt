@@ -1,0 +1,4 @@
+#Sun Apr 15 14:01:00 GMT+07:00 2018
+base.0=C\:\\Users\\Administrator\\AndroidStudioProjects\\EnglishMiQi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\94
+path.0=classes.dex
+renamed.0=classes.dex
